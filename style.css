@@ -1,0 +1,40 @@
+ body{
+    background-color: gray;
+ }
+ .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+
+}
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: auto;
+    background-color: white;
+    width: 250px;
+    
+  
+}
+.text{
+    text-align: center;
+    padding: 30px;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: white;
+    margin: 10px;
+    transition-duration: 0.4s;  
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
